@@ -1,0 +1,38 @@
+.training-card-content {
+    border-radius: 2rem;
+    height: 132px;
+    background-color: var(--dark-gray);
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.training-title {
+    font-size: 2rem;
+}
+
+.training-description {
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
+}
+
+.training-buttons {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+}
+
+.training-btn {
+    border: none;
+    color: var(--white);
+    background-color: #00000073;
+    gap: 1rem;
+    display: flex;
+    padding: .2rem 1rem;
+    border-radius: 8px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}

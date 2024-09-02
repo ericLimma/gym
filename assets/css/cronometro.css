@@ -1,0 +1,47 @@
+.cronometro {
+    width: 80%;
+    font-family: "B612 Mono", monospace;
+}
+
+.display {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.display span {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+#millisecond {
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.btn-container {
+    width: 100%;
+    max-width: 400px;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #333333;
+    border: none;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    color: inherit;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    cursor: pointer;
+}
